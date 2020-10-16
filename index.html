@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora Salário Líquido</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+
+
+    <div class="formulario_caixa">
+
+      <form class="formulario" action="index.html" method="post">
+
+        <label for="salarioBruto">Salário Bruto:</label><br>
+        <input type="text" id="salarioBruto" name="salarioBruto" value="1200,00"><br>
+        <label for="descontos">Outros Descontos</label><br>
+        <input type="text" id="descontos" name="descontos" value="0 "><br><br>
+        <input type="submit" id="botao" value="calcular" onclick="calculaSalario">
+
+      </form>
+
+      <div id="resultado" class="meuestilo"></div>
+
+
+    </div>
+
+    <script type="text/javascript" src="js/programa.js">
+
+    </script>
+
+  </body>
+</html>
